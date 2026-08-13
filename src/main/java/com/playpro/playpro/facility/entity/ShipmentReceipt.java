@@ -18,7 +18,7 @@ public class ShipmentReceipt {
     @Column(name = "inventory_item_id", length = 20)
     private String inventoryItemId;
 
-    @Column(name = "product_id", length = 20)
+    @Column(name = "product_id", length = 64)
     private String productId;
 
     @Column(name = "shipment_id", length = 20)

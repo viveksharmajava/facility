@@ -18,7 +18,7 @@ public class InventoryItem {
     @Column(name = "inventory_item_type_id", length = 20, nullable = false)
     private String inventoryItemTypeId;
 
-    @Column(name = "product_id", length = 20)
+    @Column(name = "product_id", length = 64)
     private String productId;
 
     @Column(name = "party_id", length = 20)
